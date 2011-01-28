@@ -10,6 +10,9 @@ URL:		http://www.libdmtx.org/
 Source0:	http://downloads.sourceforge.net/libdmtx/%{name}-%{version}.tar.bz2
 # Source0-md5:	0684cf3857591e777b57248d652444ae
 BuildRequires:	ImageMagick-devel
+BuildRequires:	pkgconfig
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 # required for tests
 BuildRequires:	OpenGL-GLU-devel
