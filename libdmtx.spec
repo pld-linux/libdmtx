@@ -3,7 +3,7 @@
 Summary:	Library for working with Data Matrix 2D bar-codes
 Name:		libdmtx
 Version:	0.7.2
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Libraries
 URL:		http://www.libdmtx.org/
