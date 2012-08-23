@@ -3,7 +3,7 @@
 Summary:	Library for working with Data Matrix 2D bar-codes
 Name:		libdmtx
 Version:	0.7.2
-Release:	2
+Release:	3
 License:	LGPL v2+
 Group:		Libraries
 URL:		http://www.libdmtx.org/
@@ -63,7 +63,7 @@ Summary:	PHP bindings for %{name}
 License:	GPL v2+
 Group:		Libraries
 Requires:	%{name} = %{version}-%{release}
-Requires:	php-common
+Requires:	php(core)
 
 %description -n php-libdmtx
 The php-%{name} package contains bindings for using %{name} from PHP.
