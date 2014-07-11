@@ -1,5 +1,8 @@
 # TODO
 # - java bindings
+# - .Net bindings
+# - vala bindings
+# - ruby bindings
 #
 # Conditional build:
 %bcond_with	ruby		# build Ruby bindings
