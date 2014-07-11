@@ -78,14 +78,14 @@ Obsoletes:	php-libdmtx < 0.7.2-4
 %description -n %{php_name}-dmtx
 This package contains bindings for using %{name} from PHP.
 
-%package -n python-libdmtx
+%package -n python-pydmtx
 Summary:	Python bindings for %{name}
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
+Obsoletes:	python-libdmtx < 0.7.2-4
 
-%description -n python-libdmtx
-The python-%{name} package contains bindings for using %{name} from
-Python.
+%description -n python-pydmtx
+This package contains bindings for using %{name} from Python.
 
 %package -n ruby-libdmtx
 Summary:	Ruby bindings for %{name}
@@ -231,7 +231,7 @@ rm -rf $RPM_BUILD_ROOT
 %endif
 
 %if %{with python}
-%files -n python-libdmtx
+%files -n python-pydmtx
 %defattr(644,root,root,755)
 %doc wrapper/python/README
 %{py_sitedir}/pydmtx.py[co]
