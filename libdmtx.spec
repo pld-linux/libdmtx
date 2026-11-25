@@ -5,13 +5,13 @@
 Summary:	Library for working with Data Matrix 2D bar-codes
 Summary(pl.UTF-8):	Biblioteka do pracy z kodami paskowymi Data Matrix 2D
 Name:		libdmtx
-Version:	0.7.5
+Version:	0.7.8
 Release:	1
 License:	BSD
 Group:		Libraries
 #Source0Download: https://github.com/dmtx/libdmtx/releases
 Source0:	https://github.com/dmtx/libdmtx/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	82edcd68e9f4fa779f5f7573baf2a9f5
+# Source0-md5:	2b4329190b65e2f8b23e4a329ec7d792
 URL:		https://github.com/dmtx/libdmtx
 BuildRequires:	ImageMagick-devel
 BuildRequires:	autoconf >= 2.50
